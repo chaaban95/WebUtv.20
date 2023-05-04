@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave 5</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+
+    <nav>
+        <h1>Oblig 1</h1>
+        <ul>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="artikkel.html">Oppgave 2</a></li>
+            <li><a href="innhold-vs-design.html">Oppgave 3</a></li>
+            <li><a href="webserver.html">Oppgave 4</a></li>
+            <li><a class="active" href="semantikk.html">Oppgave 5</a></li>
+            <li><a href="box-modellen.html">Oppgave 7</a></li>
+        </ul>
+    </nav>
+
+    <header id="tekstheader">
+        <h1>Siste Innlegg</h1>
+    </header>
+
+    <main>
+        <section id="artikkel">
+            <article>
+                <h2>Hva er Semantisk HTML?</h2>
+                <h4>13.09.2020</h4>
+                <img src="imgs/html.jpg" alt="html code">
+                <p>
+                    Søkemotorer som Google publiserer det som kalles en crawler overalt på nettsteder, og deres funksjon er å samle inn informasjon om innholdet på sidene du besøker for å vise passende resultater for de som leter etter noe på disse sidene.
+                </p>
+                <p>
+                    Problemet var at denne søkeroboten ikke forsto websider riktig, fordi den ikke visste hvor header, article, footer og annen informasjon var.
+                </p>
+                <p>
+                    Denne informasjonen er selvfølgelig nyttig for arkivering av siden og for å vise resultatene riktig for søkemotorbrukeren
+                </p>
+                <p>
+                    HTML5 løste dette problemet ved å legge til nye statiske tagger for å markere betydningen av hver del, for eksempel < header > < /header >. Når søkeroboten kommer inn på siden og prøver å arkivere den, vil den forstå at det som er mellom disse to kodene er header innholdet.
+                </p>
+                <p>
+                    Et annet eksempel er < article > < /article >, når robotsøkeprogrammet ser disse to kodene, vil den vite at det som er mellom dem er innholdet i artikkelen, og det vil derfor være viktig å arkivere artikkelinnholdet slik at det vises for brukerne i resultatene, og så videre.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2020, Omar Chaaban (omarnc@hiof.no)</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksempel 1</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <a name="top"></a>
+    <div id="containera">
+        <header>
+            <h1 id="logo"><a href="index.html">Oblig 4</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="html-skjemaer.html">HTML-skjemaer</a></li>
+                <li><a href="media-typer.html">Media Typer</a></li>
+                <li><a href="css-layouts.html">CSS Layouts</a></li>
+                <li><a href="video-audio.html">Video & Audio</a></li>
+                <li><a href="responsivt-design.html">Responsivt Design</a></li>
+                <li><a href="sass.html">SASS</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
+                <li><a href="sosiale-medier.html">Sosiale Medier</a></li>
+                <li><a class="active" href="microdata.html">Microdata</a></li>
+            </ul>
+        </nav>
+        <div id="breadcumb">
+            <h4>Hjem > Microdata > Eksempel 1</h4>
+        </div>
+        <main>
+            <section id="containera2">
+                <article class="itema">
+                    <h2>Eksempel 1</h2>
+                    <h4>05.11.2020</h4>
+                    <h3>En Film</h3>
+                    <p>For å lage microdata for en film må vi bruke movie vokabularet fra <a href="https://schema.org/Movie" target="_blank">schema.org</a></p>
+                    <section itemscope itemtype="https://schema.org/Movie">
+                        <h3 itemprop="name">Bilal: A New Breed of Hero</h3>
+                        <p><span itemprop="description">A thousand years ago, a boy with a dream of becoming a great warrior is abducted with his sister and taken to a land far away from home. Thrown into a world where greed and injustice rule all, Bilal finds the courage to raise his voice and make.</span></p>
+                        <p>Release date:<span itemprop="datePublished"> September 8, 2016</span></p>
+                        <p>Duration:<span itemprop="duration"> 1h 50m</span></p>
+                        <p>Director 1:<span itemprop="director"> Ayman Jamal</span></p>
+                        <p>Director 2:<span itemprop="director"> Khurram Alavi</span></p> 
+                    </section>
+                    <a href="microdata.html"><button class="btn" id="tilbake" type="button">Tilbake</button></a> 
+                    <a href="#top"><button class="btn" type="button">Top</button></a> 
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020, Omar Chaaban (omarnc@hiof.no)</p>
+        </footer>
+    </div>
+</body>
+</html>

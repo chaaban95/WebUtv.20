@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SASS</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <a name="top"></a>
+    <div id="containera">
+        <header>
+            <h1 id="logo"><a href="index.html">Oblig 3</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="html-skjemaer.html">HTML-skjemaer</a></li>
+                <li><a href="media-typer.html">Media Typer</a></li>
+                <li><a href="css-layouts.html">CSS Layouts</a></li>
+                <li><a href="video-audio.html">Video & Audio</a></li>
+                <li><a href="responsivt-design.html">Responsivt Design</a></li>
+                <li><a class="active" href="sass.html">SASS</a></li>
+            </ul>
+        </nav>
+        <div id="breadcumb">
+            <h4>Hjem > SASS</h4>
+        </div>
+        <main>
+            <section id="containera2">
+                <article class="itema">
+                    <h2>SASS</h2>
+                    <h4>27.10.2020</h4>
+                    <img src="../oblig3/imgs/sass.jpg" alt="sass tekst">
+                    <h3>Hva er Sass?</h3>
+                    <p>Sass (Syntactically Awesome Style Sheets) er en kraftig utvidelse av CSS, som legger til ekstra funksjoner som variabler, løkker og mer, til vanlig CSS. Sass bidrar til å gjøre kodingsprosessen raskere, mer effektiv og mer organisert sammenlignet med tradisjonell CSS. Noe som gjør at den vil være veldig nyttig på store prosjekter med mye CSS-kode.</p>
+                    <h3>Hvordan bruke Sass?</h3>
+                    <ul>
+                        <li><b>Variabler</b></li> <p>Variabler lar deg lagre informasjon som du kan bruke senere, slik at koden blir mindre repeterende. For eksempel kan du lagre en farge i en variabel ved å bruke $ symbol før variabelnavnet, som; $minspesiellefarge: verdi;</p>
+                        <li><b>Nesting</b></li> <p>Sass lar deg neste CSS selectors for å redusere kodelinjer, det forstås best med et eksempel:</p>
+                        <p>CSS kode:</p>
+                        <p>nav ul {list-style: none;}</p>
+                        <p>nav li {display: inline-block;}</p>
+                        <p>nav a {text-decoration: none;}</p>
+                        <p>SCSS kode:</p>
+                        <p>nav {ul {list-style: none;} li {display: inline-block;} a {text-decoration: none;}}</p>
+                        <li><b>Import</b></li> <p>Sass lar deg skille koden din i mindre filer som kalles partials og har slutten på _fil.scss. Deretter kan du importere partials-filene dine til en enkelt Sass-fil ved å bruke @import filnavn;</p>
+                    </ul>
+                    <h3>Har er et enkelt prosjekt:</h3>
+                    <img src="../oblig3/imgs/il3.png" alt="kode">
+                    <a href="#top"><button class="btn" type="button">Top</button></a> 
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020, Omar Chaaban (omarnc@hiof.no)</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video & Audio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <a name="top"></a>
+    <div id="containera">
+        <header>
+            <h1 id="logo"><a href="index.html">Oblig 4</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="html-skjemaer.html">HTML-skjemaer</a></li>
+                <li><a href="media-typer.html">Media Typer</a></li>
+                <li><a href="css-layouts.html">CSS Layouts</a></li>
+                <li><a class="active" href="video-audio.html">Video & Audio</a></li>
+                <li><a href="responsivt-design.html">Responsivt Design</a></li>
+                <li><a href="sass.html">SASS</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
+                <li><a href="sosiale-medier.html">Sosiale Medier</a></li>
+                <li><a href="microdata.html">Microdata</a></li>
+            </ul>
+        </nav>
+        <div id="breadcumb">
+            <h4>Hjem > Video & Audio</h4>
+        </div>
+        <main>
+            <section id="containera2">
+                <article class="itema">
+                    <h2>Video & Audio</h2>
+                    <h4>26.10.2020</h4>
+                    <img src="../oblig4/imgs/bilde4.jpg" alt="Et bilde av et klapperbord">
+                    <p>I tidligere versjoner av HTML hadde vi ikke muligheten til å legge til video og lyd naturlig i koden, så et tredjeparts plugin, som Flash (Silverlight), ble brukt til å legge til lyd og video til nettsteder på nettet.</p>
+                    <p>Senere ga HTML5 oss mange nye funksjoner som inkluderer den innebygde lyd- og videostøtten uten behov for eksterne plugins som Flash (Silverlight).</p>
+                    <p>< video > -elementet brukes til å legge til en videofil, og < audio > -elementet brukes til å legge til en lydfil, noe som gjør det enkelt å legge til media på en webside.</p>
+                    <p><b>Legge til videoer</b></p>
+                    <p>< video src = "video.mp4" > < video > lar oss legge inn en video veldig enkelt. HTML-videotag støtter mp4-, ogg- og webm-formater. MP4 støttes av alle nettlesere, og jeg anbefaler deg å alltid bruke den. La oss nå se på noen attributter vi kan bruke til å forbedre brukeropplevelsen:</p>
+                    <ul>
+                        <li>< src ></li> <p>lar deg legge til en url-lenke til videoen du vil legge inn.</p>
+                        <li>< controls ></li> <p>lar deg vise videokontroller som; volum, pause og gjenoppta avspilling etc.</p>
+                        <li>< høyde ></li> <p>lar deg angi høyden på videoens visningsområde</p>
+                        <li>< bredde ></li> <p>lar deg angi bredden på videoens visningsområde</p>
+                        <li>< poster ></li> <p>lar deg vise et bilde før videoen spilles av</p>
+                        <li>< loop ></li> <p>Lar videoen spilles av automatisk når den er ferdig.</p>
+                        <li>< autoplay ></li> <p>Lar videoen spilles av automatisk når siden lastes inn. Råd: bruk aldri dette uten attributtet muted</p>
+                    </ul>
+                    <h3>Har er et enkelt eksempel:</h3>
+                    <div class="iframe-container">
+                    <iframe src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <hr>
+                    <hr>
+                    <p><b>Legge til lyd</b></p>
+                    <p>< audio src="file.mp3" > < /audio > lar oss legge inn en audio veldig enkelt. HTML-audiotag støtter mp3-, ogg- og wav-formater. MP3 støttes av alle nettlesere, og jeg anbefaler deg å alltid bruke den. La oss nå se på noen attributter vi kan bruke til å forbedre brukeropplevelsen:</p>
+                    <ul>
+                        <li>< src ></li> <p>lar deg legge til en url-lenke til lydfilen du vil legge inn.</p>
+                        <li>< controls ></li> <p>lar deg vise lydkontroller som; volum, pause og gjenoppta avspilling etc.</p>
+                        <li>< loop ></li> <p>Lar lydenfilen spilles av automatisk når den er ferdig.</p>
+                        <li>< autoplay ></li> <p>Lar lydfilen spilles av automatisk når siden lastes inn. Råd: bruk aldri dette uten attributtet muted</p>
+                    </ul>
+                    <h3>Har er et enkelt eksempel:</h3>
+                    <audio src="audio/lyd.mp3" controls></audio>
+                    <a href="#top"><button class="btn" type="button">Top</button></a> 
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020, Omar Chaaban (omarnc@hiof.no)</p>
+        </footer>
+    </div>
+</body>
+</html>

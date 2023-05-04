@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksempel 5</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <a name="top"></a>
+    <div id="containera">
+        <header>
+            <h1 id="logo"><a href="index.html">Oblig 4</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="html-skjemaer.html">HTML-skjemaer</a></li>
+                <li><a href="media-typer.html">Media Typer</a></li>
+                <li><a href="css-layouts.html">CSS Layouts</a></li>
+                <li><a href="video-audio.html">Video & Audio</a></li>
+                <li><a href="responsivt-design.html">Responsivt Design</a></li>
+                <li><a href="sass.html">SASS</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
+                <li><a href="sosiale-medier.html">Sosiale Medier</a></li>
+                <li><a class="active" href="microdata.html">Microdata</a></li>
+            </ul>
+        </nav>
+        <div id="breadcumb">
+            <h4>Hjem > Microdata > Eksempel 5</h4>
+        </div>
+        <main>
+            <section id="containera2">
+                <article class="itema">
+                    <h2>Eksempel 5</h2>
+                    <h4>05.11.2020</h4>
+                    <h3>Et Sted</h3>
+                    <p>For å lage microdata for et sted må vi bruke Place vokabularet fra <a href="https://schema.org/Place" target="_blank">schema.org</a></p>
+                    <section itemscope itemtype="https://schema.org/Place">
+                        <h3><span itemprop="name"> Kaaba</span></h3>
+                        <p><span itemprop="description">The Kaaba, also spelled Ka'bah or Kabah, sometimes referred to as al-Kaʿbah al-Musharrafah, is a building at the center of Islam's most important mosque, the Masjid al-Haram in Mecca, Saudi Arabia. It is the most sacred site in Islam.</span></p>
+                        <p>Address:<span itemprop="address"> Al Haram, Mecca 24231, Saudi Arabia</span></p>
+                        <p>A photo:</p><img itemprop="photo" src="../oblig4/imgs/kaaba.jpg"></img>
+                    </section>
+                    <a href="microdata.html"><button class="btn" id="tilbake" type="button">Tilbake</button></a> 
+                    <a href="#top"><button class="btn" type="button">Top</button></a> 
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020, Omar Chaaban (omarnc@hiof.no)</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /Wireframe Sketch/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://itstud.hiof.no/~omarnc/webutv/oblig4/sitemap.xml

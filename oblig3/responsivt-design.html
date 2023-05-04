@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivt Design</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <a name="top"></a>
+    <div id="containera">
+        <header>
+            <h1 id="logo"><a href="index.html">Oblig 3</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="html-skjemaer.html">HTML-skjemaer</a></li>
+                <li><a href="media-typer.html">Media Typer</a></li>
+                <li><a href="css-layouts.html">CSS Layouts</a></li>
+                <li><a href="video-audio.html">Video & Audio</a></li>
+                <li><a class="active" href="responsivt-design.html">Responsivt Design</a></li>
+                <li><a href="sass.html">SASS</a></li>
+            </ul>
+        </nav>
+        <div id="breadcumb">
+            <h4>Hjem > Responsivt Design</h4>
+        </div>
+        <main>
+            <section id="containera2">
+                <article class="itema">
+                    <h2>Responsivt Design</h2>
+                    <h4>27.10.2020</h4>
+                    <img src="../oblig3/imgs/bilde5.jpg" alt="bilde med responsivt-design ikoner og tekst">
+                    <p><b>Hva er Responsivt Design?</b></p>
+                    <p>Det er en fleksibel design som kan endre form og dimensjoner ved å endre skjermstørrelsen på enheten som nettstedet vises gjennom. Hvis det er en bærbar datamaskin, smarttelefon eller nettbrett, endrer nettstedet automatisk grensesnittet i henhold til de nye størrelsene på skjermen eller i henhold til størrelsen på nettleseren.</p>
+                    <p><b>Hvorfor er responsivt design viktig?</b></p>
+                    <p>Det er mange studier som bekrefter at surfing på en mobiltelefon har overgått de som foregår på datamaskiner <u>se kilde 1</u>. Derfor har det blitt viktig for nettstedet ditt å ha et responsivt design som passer til alle slags forskjellige elektroniske enheter som brukes til å besøke nettstedet ditt. Disse enhetene varierer fra veldig små skjermer, for eksempel smarttelefoner, til veldig store skjermer, for eksempel store TV-skjermer.</p>
+                    <p>I tillegg til å gi nettstedsbrukeren en unik brukeropplevelse, vil du få bedre resultater i søkemotorresultatene når du bruker et responsivt design <u>se kilde 2</u>.</p>
+                    <p><b>Hvordan kan du bruke responsivt design?</b></p>
+                    <p>Du må først legge til < meta name = "viewport" / > -koden i < head > området for å kunne bruke @media-egenskapen.</p>
+                    <img src="../oblig3/imgs/il1.png" alt="bilde med kode">
+                    <p>Du kan velge oppsett avhengig av nettleserbredden, og fordi nettleserbredden er relatert til størrelsen på brukerens enhet, lar denne muligheten deg dermed definere forskjellige oppsett for forskjellige enheter.</p>
+                    <p>Så kan du bruke @media med en maksimal bredde på 800 piksler, for eksempel hvis skjermstørrelsen (som er det samme som nettleserbredden) er mindre enn 800 piksler, vil spesielle egenskaper bli brukt. Du kan bruke alle typer egenskaper du vil, innenfor delen av @media.</p>
+                    <img src="../oblig3/imgs/il2.png" alt="bilde med kode">
+                    <ul>
+                        <li><a href="https://www.perficient.com/insights/research-hub/mobile-vs-desktop-usage-study" target="_blank">Kilde 1</a></li>
+                        <li><a href="https://www.businessnewsdaily.com/7808-google-search-ranking-mobile.html" target="_blank">Kilde 2</a></li>
+                    </ul>
+                    <a href="#top"><button class="btn" type="button">Top</button></a> 
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020, Omar Chaaban (omarnc@hiof.no)</p>
+        </footer>
+    </div>
+</body>
+</html>

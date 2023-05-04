@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="YouzClothing">
+    <meta name="description" content="YouzClothing, kjøp herre, dame og barn t-skjorter online med gratis frakt">
+    <meta name="keywords" content="YouzClothing, butikk, t-skjorter, salg, tilbud">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Jeg linker til font awesome ikonene-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Shop</title>
+</head>
+<body class="gridcontainer3">
+    <header>
+        <a href="index.html"><img class="logom" src="img/LogoMedSlogan.png" alt="logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img class="llogo" src="img/LitenLogo.png" alt="logo"></a></li>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a class="active" href="shop.html">Shop</a></li>
+            <li><a href="kontakt.html">Om oss</a></li>
+            <li><a href="plan.html">Plan</a></li>
+            <li><a href="seo.html">SEO</a></li>
+        </ul>
+    </nav>
+    <aside class="shopSidebar">
+        <section class="shop">
+            <h3 tabindex="0">Kategori:</h2>
+            <p tabindex="0" class="marginbottom">T-skjorter</p>        
+        </section> 
+    </aside>
+    <main class="flexcontainer3">
+        <section class="seksjon3">
+            <img tabindex="0" src="Media/Tskjorte/tskjorte1.png" alt="Bilde av en lilla tskjorte">
+            <h3 tabindex="0">CSS og Flexbox T-skjorte</h2>
+            <p tabindex="0">Komfortabel og behagelig T-skjorte med trykk. Gla i grids og flexbox? Kjøp denne unike T-skjorte for å vise frem til verden hva du er god på!</p>
+            <p tabindex="0" class="pris">199 kr</p>
+            <a href="#"><button class="btn" type="button">Kjøp</button></a> 
+        </section>
+        <section class="seksjon3">
+            <img tabindex="0" src="Media/Tskjorte/tskjorte2.png" alt="Bilde av en grå tskjorte">
+            <h3 tabindex="0">In the making T-skjorte</h2>
+            <p tabindex="0">Komfortabel og behagelig T-skjorte med trykk.</p>
+            <p tabindex="0" class="pris">149 kr</p>
+            <a href="#"><button class="btn" type="button">Kjøp</button></a> 
+        </section>
+        <section class="seksjon3">
+            <img tabindex="0" src="Media/Tskjorte/tskjorte3.png" alt="Bilde av en grønn tskjorte">
+            <h3 tabindex="0">HTML, CSS & JavaScript T-skjorte</h2>
+            <p tabindex="0">Komfortabel og behagelig T-skjorte med trykk.</p>
+            <p tabindex="0" class="pris">249 kr</p>
+            <a href="#"><button class="btn" type="button">Kjøp</button></a> 
+        </section>
+    </main>
+    <footer>
+        <p class="margintop">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </p>
+        <p tabindex="0">Kundeservice telefon nr.: 88 88 88 88</p>
+        <p tabindex="0">Kundeservice åpningstider: Man-Fre 10:00 - 16:30</p>
+        <p tabindex="0" class="marginbottom">Postadresse: Adressevei 90E, 1783 Halden, Norge</p>
+    </footer>
+    <button onclick="topFunction()" id="topBtn" class="topBtn" type="button">Top</button>
+    <script>
+        var mybutton = document.getElementById("topBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.documentElement.scrollTop > 180) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        
+        function topFunction() {
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>

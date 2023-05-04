@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksempel 4</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <a name="top"></a>
+    <div id="containera">
+        <header>
+            <h1 id="logo"><a href="index.html">Oblig 4</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="html-skjemaer.html">HTML-skjemaer</a></li>
+                <li><a href="media-typer.html">Media Typer</a></li>
+                <li><a href="css-layouts.html">CSS Layouts</a></li>
+                <li><a href="video-audio.html">Video & Audio</a></li>
+                <li><a href="responsivt-design.html">Responsivt Design</a></li>
+                <li><a href="sass.html">SASS</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
+                <li><a href="sosiale-medier.html">Sosiale Medier</a></li>
+                <li><a class="active" href="microdata.html">Microdata</a></li>
+            </ul>
+        </nav>
+        <div id="breadcumb">
+            <h4>Hjem > Microdata > Eksempel 4</h4>
+        </div>
+        <main>
+            <section id="containera2">
+                <article class="itema">
+                    <h2>Eksempel 4</h2>
+                    <h4>05.11.2020</h4>
+                    <h3>En Tv Serie</h3>
+                    <p>For å lage microdata for en TV Serie må vi bruke TVSeries vokabularet fra <a href="https://schema.org/TVSeries" target="_blank">schema.org</a></p>
+                    <section itemscope itemtype="https://schema.org/TVSeries">
+                        <h3><span itemprop="name"> Omar</span></h3>
+                        <p><span itemprop="description">Omar is a historical Arab television drama miniseries-serial that was produced and broadcast by MBC1 and directed by the Syrian director Hatem Ali. Co-produced by Qatar TV, the series is based on the life of Omar ibn Al-Khattab, the second Caliph of Islam, and depicts his life from 18 years old until the moments of his death</span></p>
+                        <p>First episode date:<span itemprop="startDate"> July 20, 2012</span></p>
+                        <p>Final episode date:<span itemprop="endDate"> August 18, 2012</span></p>
+                        <p>Number of episodes:<span itemprop="numberOfEpisodes"> 30</span></p>
+                    </section>
+                    <a href="microdata.html"><button class="btn" id="tilbake" type="button">Tilbake</button></a> 
+                    <a href="#top"><button class="btn" type="button">Top</button></a> 
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020, Omar Chaaban (omarnc@hiof.no)</p>
+        </footer>
+    </div>
+</body>
+</html>

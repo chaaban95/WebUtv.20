@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="YouzClothing">
+    <meta name="description" content="YouzClothing, skriv til oss nå">
+    <meta name="keywords" content="YouzClothing, kontakt oss, om oss">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Jeg linker til font awesome ikonene-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Om oss</title>
+</head>
+<body class="gridcontainer2">
+    <header>
+        <a href="index.html"><img class="logom" src="img/LogoMedSlogan.png" alt="logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img class="llogo" src="img/LitenLogo.png" alt="logo"></a></li>
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a class="active" href="kontakt.html">Om oss</a></li>
+            <li><a href="plan.html">Plan</a></li>
+            <li><a href="seo.html">SEO</a></li>
+        </ul>
+    </nav>
+    <aside class="kontaktSidebar">
+        <section class="kontakt" itemscope itemtype="https://schema.org/Organization">
+            <h3 tabindex="0">Kontakt informasjon:</h2>
+            <p tabindex="0">Kundeservice telefon nr.: <span itemprop="telephone"> 88 88 88 88</span></p>
+            <p tabindex="0">Kundeservice åpningstider: Man-Fre 10:00 - 16:30</p>
+            <p tabindex="0" class="marginbottom">Postadresse: <span itemprop="address"> Adressevei 90E, 1783 Halden, Norge</span></p>        
+        </section> 
+    </aside>
+    <main class="flexcontainer2">
+        <section class="seksjon2" itemscope itemtype="https://schema.org/Person">
+            <img tabindex="0" src="Media/KontaktPersoner/KontaktPerson1.png" alt="Ikon av en person">
+            <h3 tabindex="0"><span itemprop="givenName"> Mona</span><span itemprop="familyName"> Mon Monaersen</span></h2>
+            <p tabindex="0"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i><span itemprop="jobTitle"> CEO</span></p>
+            <p tabindex="0"><i class="fa fa fa-phone fa-fw" aria-hidden="true"></i><span itemprop="telephone"> 00 00 00 00</span></p>
+            <p tabindex="0"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i><span itemprop="email"> person1@fakeemail.no</span></p>
+        </section>
+        <section class="seksjon2" itemscope itemtype="https://schema.org/Person">
+            <img tabindex="0" src="Media/KontaktPersoner/KontaktPerson2.png" alt="Ikon av en person">
+            <h3 tabindex="0"><span itemprop="givenName"> Anders</span><span itemprop="familyName"> And Andersen</span></h2>
+            <p tabindex="0"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i><span itemprop="jobTitle"> Markedsfører</span></p>
+            <p tabindex="0"><i class="fa fa fa-phone fa-fw" aria-hidden="true"></i><span itemprop="telephone"> 00 00 00 00</span></p>
+            <p tabindex="0"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i><span itemprop="email"> person2@fakeemail.no</span></p>
+        </section>
+        <section class="seksjon2" itemscope itemtype="https://schema.org/Person">
+            <img tabindex="0" src="Media/KontaktPersoner/KontaktPerson3.png" alt="Ikon av en person">
+            <h3 tabindex="0"><span itemprop="givenName"> Børre</span><span itemprop="familyName"> Børresen</span></h2>
+            <p tabindex="0"><i class="fa fa-briefcase fa-fw" aria-hidden="true"></i><span itemprop="jobTitle"> Markedsfører</span></p>
+            <p tabindex="0"><i class="fa fa fa-phone fa-fw" aria-hidden="true"></i><span itemprop="telephone"> 00 00 00 00</span></p>
+            <p tabindex="0"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i><span itemprop="email"> person3@fakeemail.no</span></p>
+        </section>
+    </main>
+    <footer>
+        <p class="margintop">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </p>
+        <p tabindex="0">Kundeservice telefon nr.: 88 88 88 88</p>
+        <p tabindex="0">Kundeservice åpningstider: Man-Fre 10:00 - 16:30</p>
+        <p tabindex="0" class="marginbottom">Postadresse: Adressevei 90E, 1783 Halden, Norge</p>
+    </footer>
+    <button onclick="topFunction()" id="topBtn" class="topBtn" type="button">Top</button>
+    <script>
+        var mybutton = document.getElementById("topBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.documentElement.scrollTop > 180) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        
+        function topFunction() {
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>

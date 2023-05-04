@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="YouzClothing">
+    <meta name="description" content="YouzClothing, Unique clothing store online">
+    <meta name="keywords" content="YouzClothing, butikk, online, gratis frakt, outlet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--Jeg linker til font awesome ikonene-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Hjem</title>
+</head>
+<body class="gridcontainer">
+    <header>
+        <a href="index.html"><img class="logom" src="img/LogoMedSlogan.png" alt="logo"></a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><img class="llogo" src="img/LitenLogo.png" alt="logo"></a></li>
+            <li><a class="active" href="index.html">Hjem</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="kontakt.html">Om oss</a></li>
+            <li><a href="plan.html">Plan</a></li>
+            <li><a href="seo.html">SEO</a></li>
+        </ul>
+    </nav>
+    <main class="flexcontainer">
+        <section class="seksjon">
+            <img tabindex="0" src="img/seksjon1.jpg" alt="Bilde av en mann">
+            <h3 tabindex="0">Bilde av en mann</h2>
+            <p tabindex="0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam necessitatibus neque iste consectetur ut sequi illum ipsum consequuntur dolorum aliquid. Itaque maxime saepe repellendus quasi possimus eaque a nesciunt impedit!</p>
+        </section>
+        <section class="seksjon">
+            <img tabindex="0" src="img/seksjon2.jpg" alt="Bilde av et barn">
+            <h3 tabindex="0">Bilde av et barn</h2>
+            <p tabindex="0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam necessitatibus neque iste consectetur ut sequi illum ipsum consequuntur dolorum aliquid. Itaque maxime saepe repellendus quasi possimus eaque a nesciunt impedit!</p>
+        </section> 
+        <section class="seksjon">
+            <img tabindex="0" src="img/seksjon3.jpg" alt="Bilde av en kvinne">
+            <h3 tabindex="0">Bilde av en kvinne</h2>
+            <p tabindex="0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam necessitatibus neque iste consectetur ut sequi illum ipsum consequuntur dolorum aliquid. Itaque maxime saepe repellendus quasi possimus eaque a nesciunt impedit!</p>
+        </section>
+    </main>
+    <footer>
+        <p class="margintop">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </p>
+        <p tabindex="0">Kundeservice telefon nr.: 88 88 88 88</p>
+        <p tabindex="0">Kundeservice åpningstider: Man-Fre 10:00 - 16:30</p>
+        <p tabindex="0" class="marginbottom">Postadresse: Adressevei 90E, 1783 Halden, Norge</p>
+    </footer>
+    <button onclick="topFunction()" id="topBtn" class="topBtn" type="button">Top</button>
+    <script>
+        var mybutton = document.getElementById("topBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+            if (document.documentElement.scrollTop > 180) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        
+        function topFunction() {
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+</body>
+</html>

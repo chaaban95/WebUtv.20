@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-skjemaer</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <a name="top"></a>
+    <div id="containera">
+        <header>
+            <h1 id="logo"><a href="index.html">Oblig 4</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a class="active" href="html-skjemaer.html">HTML-skjemaer</a></li>
+                <li><a href="media-typer.html">Media Typer</a></li>
+                <li><a href="css-layouts.html">CSS Layouts</a></li>
+                <li><a href="video-audio.html">Video & Audio</a></li>
+                <li><a href="responsivt-design.html">Responsivt Design</a></li>
+                <li><a href="sass.html">SASS</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
+                <li><a href="sosiale-medier.html">Sosiale Medier</a></li>
+                <li><a href="microdata.html">Microdata</a></li>
+            </ul>
+        </nav>
+        <div id="breadcumb">
+            <h4>Hjem > HTML-skjemaer</h4>
+        </div>
+        <main>
+            <section id="containera2">
+                <article class="itema">
+                    <h2>HTML-skjemaer</h2>
+                    <h4>11.10.2020</h4>
+                    <img src="../oblig4/imgs/bilde1.jpg" alt="Et bilde av html skjema">
+                    <p>HTML-skjemaer brukes til å samle inn informasjon fra besøkende på nettstedet, som sendes tilbake til serveren. For eksempel kan du samle inn informasjon som navn, e-postadresse og telefonnummer når en bruker oppretter en konto.</p>
+                    <p>Skjemaer opprettes ved hjelp av HTML-koden < form >, og den består av kontroller og attributter. Noen kontroller du kan bruke til å samle inn data ved hjelp av HTML-skjemaer er:</p>
+                    <ul>
+                        <li>< input ></li> <p>oppretter et felt med en linje</p>
+                        <li>< label ></li> <p>oppretter en tekst for < input > -koden</p>
+                        <li>< textarea ></li> <p>oppretter et felt med flere linjer</p>
+                        <li>< select ></li> <p>oppretter en rullegardinliste</p>
+                        <li>< fieldset ></li> <p>brukes til å gruppere relaterte data</p>
+                        <li>< legend ></li> <p>oppretter en billedtekst for < fieldset > -elementet</p>
+                        <li>< select ></li> <p>oppretter et valgalternativ som kan velges.</p>
+                    </ul>
+                    <h3>Har er et enkelt skjema:</h3>
+                    <form>
+                        <fieldset>
+                            <legend>Opprett en konto</legend>
+                            <p>Fyll ut skjemaet:</p>
+                            <label for="email"><b>E-post</b></label>
+                            <input type="text" placeholder="Skriv e-postadresse" name="email" id="email" required>
+                            <br>    
+                            <label for="pass"><b>Passord</b></label>
+                            <input type="password" placeholder="Opprett et nytt passord" name="pass" id="pass" required>
+                            <br>
+                            <label><b>Kjønn:</b></label>
+                            <input type="radio" name="kjønn" id="male">
+                            <label for="male">Male</label>
+                            <input type="radio" name="kjønn" id="female">
+                            <label for="female">Female</label>
+                            <br>
+                            <label for="alder"><b>Alder:</b></label>
+                            <select name="alder" id="alder">
+                                <option value="0"></option>
+                                <option value="1">Under 18 år</option>
+                                <option value="2">Over 18 år</option>
+                                <option value="3">Over 63 år</option>
+                            </select>
+                            <br>
+                            <button type="submit" class="btn">Submit</button>
+                        </fieldset>
+                      </form>
+                    <a href="#top"><button class="btn" type="button">Top</button></a>  
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020, Omar Chaaban (omarnc@hiof.no)</p>
+        </footer>
+    </div>
+</body>
+</html>

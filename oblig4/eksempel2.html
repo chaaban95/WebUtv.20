@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eksempel 2</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <a name="top"></a>
+    <div id="containera">
+        <header>
+            <h1 id="logo"><a href="index.html">Oblig 4</a></h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="html-skjemaer.html">HTML-skjemaer</a></li>
+                <li><a href="media-typer.html">Media Typer</a></li>
+                <li><a href="css-layouts.html">CSS Layouts</a></li>
+                <li><a href="video-audio.html">Video & Audio</a></li>
+                <li><a href="responsivt-design.html">Responsivt Design</a></li>
+                <li><a href="sass.html">SASS</a></li>
+                <li><a href="seo.html">SEO</a></li>
+                <li><a href="tilgjengelighet.html">Tilgjengelighet</a></li>
+                <li><a href="sosiale-medier.html">Sosiale Medier</a></li>
+                <li><a class="active" href="microdata.html">Microdata</a></li>
+            </ul>
+        </nav>
+        <div id="breadcumb">
+            <h4>Hjem > Microdata > Eksempel 2</h4>
+        </div>
+        <main>
+            <section id="containera2">
+                <article class="itema">
+                    <h2>Eksempel 2</h2>
+                    <h4>05.11.2020</h4>
+                    <h3>En Person</h3>
+                    <p>For å lage microdata for en person må vi bruke person vokabularet fra <a href="https://schema.org/Person" target="_blank">schema.org</a></p>
+                    <section itemscope itemtype="https://schema.org/Person">
+                        <h3><span itemprop="givenName"> Umar</span><span itemprop="additionalName"> ibn Al-Khattāb</span></h3>
+                        <p><span itemprop="description">He was one of the most powerful and influential Muslim caliphs in history. He was a senior companion of the Islamic prophet Muhammad. He succeeded Abu Bakr (632–634) as the second caliph of the Rashidun Caliphate on 23 August 634. He was an expert Muslim jurist known for his pious and just nature.</span></p>
+                        <p>Born:<span itemprop="birthDate"> 584 AD,</span><span itemprop="birthPlace"> Mecca, Arabia</span></p>
+                        <p>Died:<span itemprop="deathDate"> 644 AD,</span><span itemprop="deathPlace"> Medina, Arabia</span></p>
+                    </section>
+                    <a href="microdata.html"><button class="btn" id="tilbake" type="button">Tilbake</button></a> 
+                    <a href="#top"><button class="btn" type="button">Top</button></a> 
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright &copy; 2020, Omar Chaaban (omarnc@hiof.no)</p>
+        </footer>
+    </div>
+</body>
+</html>
